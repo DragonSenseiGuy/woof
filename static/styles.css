@@ -76,6 +76,16 @@ a:hover {
     color: #cfcba9;
 }
 
+/* Credits Footer */
+.credits {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #87803b;
+    font-family: sans-serif;
+}
+
 /* Paw Mode Button */
 .paw-mode-btn {
     position: fixed;
