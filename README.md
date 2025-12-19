@@ -1,6 +1,10 @@
 # Woof YSWS
 Woof YSWS is a YSWS where you code a dog themed website for 5 hours and get a dog plushie!
 
+Still WIP
+
+woof-mu.vercel.app
+
 ## Installation
 First make a virtual environment:
 ```commandline
