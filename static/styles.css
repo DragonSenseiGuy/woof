@@ -25,7 +25,7 @@
 
 .woof-chan {
   font-size: 30px;
-  text-decoration: bold, italic;
+  font-style: bold, italic;
   color: #2f1313;
   margin: 0;
   font-family: "Chewy", system-ui;
