@@ -42,6 +42,21 @@
     width: auto;
 }
 
+.rsvp-link {
+    display: inline-block;
+}
+
+.rsvp-image {
+    height: 300px;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.rsvp-image:hover {
+    transform: scale(1.1);
+}
+
 .chewy-regular {
   font-family: "Chewy", system-ui;
   font-weight: 400;
