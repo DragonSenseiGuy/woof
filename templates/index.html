@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta property="og:title" content="Woof YSWS">
+    <meta property="og:title" content="Woof - Hack Club YSWS">
     <meta property="og:description" content="Spend 5 or more hours making a dog themed project and get a dog plushie and other cool stuff!">
     <meta name="description" content="Spend 5 or more hours making a dog themed project and get a dog plushie and other cool stuff!">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Woof YSWS">
+    <meta name="twitter:title" content="Woof - Hack Club YSWS">
     <meta name="twitter:description" content="Spend 5 or more hours making a dog themed project and get a dog plushie and other cool stuff!">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,7 @@
          <img src="{{ url_for('static', filename='images/woof_ysws_logo.png') }}" alt="Woof!" class="woof-logo">
          <p class="chewy-regular">Spend 5 or more hours making a dog themed project and get a dog plushie and other cool stuff!</p>
         <br>
-         <p>This is a <i style="font-size: 20px;"><b>Work in Progress</b></i> YSWS, head over to <a class="woof-chan" href="https://hackclub.enterprise.slack.com/archives/C08LCGSECQP">#woof</a> in Hack Club Slack for updates!</p>
+         <p>Woof is being sponsored by @AVD! We are working to launch Woof soon, head over to <a class="woof-chan" href="https://hackclub.enterprise.slack.com/archives/C08LCGSECQP">#woof</a> in Hack Club Slack for updates!</p>
          <br>
          <a href="https://forms.fillout.com/t/9Hf4EVq4jtus" class="rsvp-link">
              <img src="{{ url_for('static', filename='images/rsvp_image.png') }}" alt="Pet me to RSVP!" class="rsvp-image">
@@ -39,11 +39,11 @@
          </details>
          <details class="faq-item">
              <summary class="chewy-regular">How do I participate?</summary>
-             <p class="chewy-regular">You need to be 13 to 18 years old to participate. More information will be out when the event is confirmed, have a look at the Hack Club Slack for updates!</p>
+             <p class="chewy-regular">You need to be 13 to 18 years old to participate! Your identity does need to be verified using Hack Clubs secure accounts portal. A Slack and Github account is also required as well as a demo link (or video for hardware), repo link, screenshot and hackatime project!</p>
          </details>
          <details class="faq-item">
              <summary class="chewy-regular">What can I build?</summary>
-             <p class="chewy-regular">Anything to do with dogs! It could be a website, an app, or even a hardware project. As long as its shipped (accessible via a URL as either a website or executable file, or in the case of hardware is fully built with video demo) and tracked with Hackatime, we'll take it!</p>
+             <p class="chewy-regular">Anything to do with dogs! It could be a website, an app, or even a hardware project. Some examples will come out soon™️...</p>
          </details>
      </div>
    
@@ -65,9 +65,19 @@
         <h2 class="chewy-regular" style="font-size: 50px">Prizes</h2>
         <p><i>this bit of the site is still in development, <code>finding cute plushies</code>...</i></p>
      </div>
-
+     
+     <div class="dogs-section">
+        <h2 class="chewy-regular" style="font-size: 50px">Our Dogs</h2>
+        <div class="dog">
+            <img src="{{ url_for('static', filename='images/dogs/cooper.jpg') }}" alt="Cooper, Freddie's dog">
+            <p class="chewy-regular">This is Freddie's dog, Cooper!</p>
+            <br>
+            <img src="{{ url_for('static', filename='images/dogs/monzi.jpg') }}" alt="Aditya's dog">
+            <p class="chewy-regular">This is Alex's dog, Monzi!</p>
+        </div>
+    </div>
      <footer class="credits">
-         Made with ❤️ by Hack Clubbers @Aditya and @Freddie! Dog Artwork by @safia
+         Made with ❤️ by Hack Clubbers @Aditya and @Freddie! Dog Artwork by @safia!
          <br>
          Paw artwork, sounds and original idea by Google
          <br>
@@ -75,7 +85,7 @@
          <button onclick="window.location.href='https://github.com/DragonSenseiGuy/woof'">Code is open sourced here!</button>
          <br>
          <br>
-         <p>This is a WIP and not sponsored by Hack Club <i>yet</i>! For more info about Hack Club head <a href="https://hackclub.com">here</a></p>
+         <p>For more info about Hack Club head <a href="https://hackclub.com">here</a></p>
      </footer>
 
      <!-- Paw Mode Button -->
