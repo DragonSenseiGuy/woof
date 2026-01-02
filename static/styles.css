@@ -167,6 +167,14 @@ a:hover {
     justify-content: center;
     background-color: transparent;}
 
+.hc-image {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.hc-image:hover {
+    transform: scale(1.1);
+}
 /* Paw Mode Button */
 .paw-mode-btn {
     position: fixed;
