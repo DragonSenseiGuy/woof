@@ -184,10 +184,10 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent;}
+    background-color: transparent;
+}
 
 .hc-image {
-  cursor: pointer;
   transition: transform 0.2s ease;
 }
 

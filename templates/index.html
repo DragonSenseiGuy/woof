@@ -15,11 +15,11 @@
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <title>Woof YSWS</title>
 
-     <button class="hclink-btn" onclick="window.location.href='https://hackclub.com'">
-        <img class="hc-image" style="position: absolute; top: 0; left: 10px; border: 0; width: 128px; z-index: 1000;" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club">
-     </button>   
 </head>
 <body>
+     <a href="https://hackclub.com" class="hclink-btn" aria-label="Visit the Hack Club website">
+        <img class="hc-image" style="position: absolute; top: 0; left: 10px; border: 0; width: 128px; z-index: 1000;" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club">
+     </a>   
     <div class="centered-container">
          <img src="{{ url_for('static', filename='images/woof_ysws_logo.png') }}" alt="Woof!" class="woof-logo">
          <p class="chewy-regular">Spend 5 or more hours making a dog themed project and get a dog plushie! <b>Ends January 14th!</b></p>
