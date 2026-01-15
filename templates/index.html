@@ -20,21 +20,24 @@
      <a href="https://hackclub.com" class="hclink-btn" aria-label="Visit the Hack Club website">
         <img class="hc-image" style="position: absolute; top: 0; left: 10px; border: 0; width: 128px; z-index: 1000;" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club">
      </a>   
-    <div class="centered-container">
+    <div class="centered-container chewy-regular">
          <img src="{{ url_for('static', filename='images/woof_ysws_logo.png') }}" alt="Woof!" class="woof-logo">
-         <p class="chewy-regular">Spend 5 or more hours making a dog themed project and get a dog plushie! <b>Ends January 14th!</b></p>
-         <p class="chewy-regular">Click the paw in the bottom right to get a cool dog animation!</p>
-        <br>
-         <a href="https://submit.hackclub.com/woof" class="rsvp-link">
+         <p>
+         Spend 5 or more hours making a dog themed project and get a dog plushie! <b>Ends January 14th!</b><br>
+         Unfortuantly Woof has ended. Thank you so much for checking us out!
+        </p>
+         <p>Head over to <a class="woof-chan" href="https://hackclub.enterprise.slack.com/archives/C08LCGSECQP">#woof</a> on Slack for more updates!</p>
+
+         <button onclick="Ended()" class="rsvp-link">
              <img src="{{ url_for('static', filename='images/submit_image.png') }}" alt="Pet me to Submit!!" class="rsvp-image">
-         </a>
+         </button>
      </div>
 
      <div class="faq-section">
          <h2 class="chewy-regular" style="font-size: 50px">FAQ</h2>
          <details class="faq-item">
              <summary class="chewy-regular">What is Woof?</summary>
-             <p class="chewy-regular">Woof is a Hack Club YSWS where we'll send you a dog plushie or other cool prizes if you ship a project to do with dogs!</p>
+             <p class="chewy-regular">Woof is a Hack Club YSWS where we'll send you a dog plushie if you ship a 5 hour project to do with dogs!</p>
          </details>
          <details class="faq-item">
              <summary class="chewy-regular">What is Hackatime?</summary>
@@ -46,7 +49,7 @@
          </details>
          <details class="faq-item">
              <summary class="chewy-regular">What can I build?</summary>
-             <p class="chewy-regular">Anything to do with dogs! It could be a website, an app, or even a hardware project. Some examples will come out soon™️...</p>
+             <p class="chewy-regular">Anything to do with dogs! It could be a website, an app, or even a hardware project.</p>
          </details>
      </div>
    
@@ -60,20 +63,10 @@
         <details class="faq-item chewy-regular">
              <summary>Email and DM</summary>
              <p>Feel free to drop me a DM to <a href="https://hackclub.enterprise.slack.com/team/U078VN0UU2K">@Freddie</a>.</p>
-             <p>Unfortunately we do not have a official email at the moment but feel free to use <a href="mailto:hello@freddieyershon.co.uk">hello@freddieyershon.co.uk</a> if you want to.</p>
+             <p>Feel free to email Alex, our sponsor <a href="mailto:alexvd@hackclub.com">alexvd@hackclub.com</a> if you want to get in touch.</p>
          </details>
      </div>
      
-     <div class="dogs-section">
-        <h2 class="chewy-regular" style="font-size: 50px">Our Dogs</h2>
-        <div class="dog">
-            <img src="{{ url_for('static', filename='images/dogs/cooper.jpg') }}" alt="Cooper, Freddie's dog">
-            <p class="chewy-regular">This is Freddie's dog, Cooper!</p>
-            <br>
-            <img src="{{ url_for('static', filename='images/dogs/monzi.jpg') }}" alt="Alex's dog">
-            <p class="chewy-regular">This is Alex's dog, Monzi!</p>
-        </div>
-    </div>
      <footer class="credits">
          Made with ❤️ by Hack Clubbers @Aditya and @Freddie! Dog Artwork by @safia!
          <br>
@@ -83,7 +76,7 @@
          <button onclick="window.location.href='https://github.com/DragonSenseiGuy/woof'">Code is open sourced here!</button>
          <br>
          <br>
-         <p>For more info about Hack Club head <a href="https://hackclub.com">here</a></p>
+         <p>© 2026 Hack Club. 501(c)(3) nonprofit (EIN: 81-2908499)</p>
      </footer>
 
      <!-- Paw Mode Button -->
@@ -225,6 +218,9 @@
                  setTimeout(() => paw.remove(), 300);
              }, 350);
          });
+        function Ended() {
+            alert("The Woof YSWS has ended. You can't submit at this time!");
+        }
      </script>
      </body>
      </html>

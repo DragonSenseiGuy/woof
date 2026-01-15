@@ -40,10 +40,12 @@
 .woof-logo {
     height: 150px;
     width: auto;
+    mix-blend-mode: multiply;
 }
 
 .rsvp-link {
     display: inline-block;
+    background-color: transparent;
 }
 
 .rsvp-image {
